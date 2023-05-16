@@ -5,8 +5,44 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Juego Masterdots</title>
+        <link rel="stylesheet" href="./css/reset.css">
+        <link rel="stylesheet" href="./css/estilos.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap" rel="stylesheet">
     </head>
     <body>
-        
+        <!-- CABECERA -->
+        <header>
+            <img src="./img/logo.png" alt="Logo Masterdots">
+        </header>
+        <!-- FORMULARIO USUARIO -->
+        <main>
+            <form action="#">
+                <div class="itemform">
+                    <label for="name">Introduce tu nick: </label>
+                    <input type="text" name="name" id="name">
+                </div>
+                <div class="itemform">
+                    <label for="size">tamaño del Juego: </label>
+                    <select name="size" id="name">
+                        <option value="">--Seleciona una opción--</option>
+                        <option value="1">4x4</option>
+                        <option value="2">4x5</option>
+                        <option value="3">5x5</option>
+                        <option value="4">6x6</option>
+                    </select>
+                </div>
+                <div class="iemform">
+                    <input type="submit" value="INICIAR">
+                </div>
+
+            </form> 
+        </main>
+        <!-- PIE DE PÁGINA -->
+        <footer>
+            <p>Curso de HTML, CSS y JS</p>
+        </footer>
+
     </body>
 </html>

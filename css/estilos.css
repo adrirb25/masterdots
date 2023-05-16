@@ -1,0 +1,16 @@
+body{
+    background-color: #f5f5f5;
+    font-family: 'Poppins', sans-serif;
+}
+header,footer{
+    text-align: center;
+    width: 400px;
+    margin: 30px auto 0px auto;
+}
+main{
+    width: 400px;
+    margin: 30px auto 0px auto;
+} 
+input{
+    font-family: 'Poppins', sans-serif;
+}
